@@ -1,0 +1,39 @@
+<h6 id="dashboard">Dashboard</h6>
+<h5 style="color: #4433dd;">Welcome <span id="name">{{name}}</span> </h5>
+<p>Here are your written thoughts</p>
+{{#if thoughts}}
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each thoughts}}
+                <tr>
+                    <td><a style="color: #2BBBAD; font-weight: bold;" href="/thoughts/{{_id}}">{{title}}</a></td>
+                    <td>{{formatDate createdAt 'MMMM Do YYYY, h:mm:ss a'}}</td>
+                    <td><span class="dash-status">{{status}}</span></td>
+                    <td id="tdIcons">
+                        <a href="/thoughts/edit/{{_id}}" class="btn btn-float">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        
+                        <form action="/thoughts/{{_id}}" method="POST" id="delete-form">
+                            <input type="hidden" value="DELETE" name="_method">
+                            <button type="submit" class="btn red">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+
+{{else}}
+<p><i>You don't have any written thoughts</i></p>
+{{/if}}

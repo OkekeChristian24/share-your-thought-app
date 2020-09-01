@@ -1,0 +1,196 @@
+html{
+    height: 100%;
+}
+body{
+    min-height: 100%;
+    margin: 0;
+    position: relative;
+}
+
+p{
+    margin: 15px auto 0 auto !important;
+    width: 100%;
+}
+
+#container .card{
+    border-radius: 30px !important;
+    background-image: linear-gradient(#eeeeee, #ffffff, #eeeeee) !important;
+    -moz-box-shadow: 10px 20px 10px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 10px 20px 10px rgba(0, 0, 0, .5);
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .5);
+
+}
+
+#container h3{
+    color: #3333cc;
+}
+
+
+.login-container{
+    width: 75%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fa-small{
+    font-size: 16px !important;
+}
+
+a.btn.btn-float{
+    float: left;
+    margin-right: 10px;
+    clear: left;
+}
+
+.img-small{
+    width: 180px;
+}
+
+.btn-radius{
+    border-radius: 22px !important;
+}
+
+.lead{
+    background-color: #5555dd;
+    max-width: 18rem;
+    border-radius: 12px;
+    color: #eee;
+    padding: 5px;
+}
+
+nav#myNav{
+    background-color: #4433dd !important;
+}
+
+ ul#mobile-demo li a{
+    color: #4433dd;
+}
+
+h6#dashboard{
+    color: #4433dd;
+}
+
+span#name{
+    color: #2BBBAD;
+    font-weight: bold;
+}
+
+.btn, .btn-large, .btn-small, .btn-flat{
+    border-radius: 75px;
+    padding: 0 6px;
+    position: relative;
+    bottom: 0px;
+}
+
+
+table#myTable td#tdIcons{
+    width: 200px;
+    padding-left: 7%;
+}
+
+table#myTable td, th{
+    padding: 15px 15px;
+}
+
+table#myTable{
+    width: 100%;
+    min-height: 100%;
+}
+
+table#myTable td#tdIcons i.fas.fa-edit::before, i.fas.fa-trash::before{
+    font-size: 16px;
+    margin: 3px;
+}
+
+
+.card .card-content .card-title{
+    font-weight: 400;
+    width: 100%;
+    border-bottom: 1px solid;
+    padding-bottom: 7px;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+.card .card-action:last-child{
+    border-radius: 0 0 12px 12px;    
+}
+
+
+div.card.thought{
+    border-radius: 12px;
+}
+
+h5.thoughtTitle{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+i.fa-edit:before{
+    margin-left: 6px;
+}
+
+/* Styling the plus button */
+.btn-floating.btn-large i{
+    line-height: 22px;
+}
+
+i.fas.fa-plus{
+    padding: 0px;
+    margin: 0px;
+}
+.fa-plus::before{
+    font-size: 14px;
+}
+
+table#myTable a.btn-floating.btn-large.waves-effect.waves-light.red{
+    padding: 0px;
+    line-height: 59px;
+}
+
+table#myTable .btn-large{
+    line-height: 59px;
+}
+
+/* Styling the written thoughts on the public forum */
+div#publicThoughts.col.s12.m4{
+    margin-top: 25px;
+}
+
+div.card.myColumn{
+    height: 350px;
+    overflow: ;
+}
+
+h6#thoughtTitle{
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 9px;
+    width: 100%;
+    color: #2BBBAD;
+}
+
+
+/* Styling the footer */
+footer.page-footer{
+    background-color: transparent;
+    color: #4433dd;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Custom Media Queries for Responsiveness */
+
+@media screen and (max-width: 570px){
+    #container h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
