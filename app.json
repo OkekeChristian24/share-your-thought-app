@@ -1,0 +1,8 @@
+{
+  "name": "Share Your Thought App",
+  "description": "An app for sharing your views on any topics or personal experiences. Developed with Node.js, Express.js, MongoDB, Google OAuth 2.0, etc",
+  "repository": "https://github.com/OkekeChristian24/share-your-thought-app",
+  "logo": "",
+  "keywords": ["node", "express", "heroku"],
+  "image": "public/img/beach.jpg"
+}
