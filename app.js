@@ -85,7 +85,6 @@ app.use('/auth', require('./routes/auth'))
 app.use('/thoughts', require('./routes/thoughts'))
 
 
-const PORT = process.env.PORT || 3000
 
 
-app.listen(PORT, console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`))
+app.listen(process.env.PORT || 3000)

@@ -4,7 +4,7 @@
   "description": "This app helps you to create and share your public (or private) thoughts",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
+    "start": "node app.js",
     "dev": "cross-env NODE_ENV=development nodemon app"
   },
   "author": "Okeke Christian",
