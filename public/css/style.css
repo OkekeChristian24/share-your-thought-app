@@ -181,7 +181,7 @@ footer.page-footer{
     background-color: transparent;
     color: #4433dd;
     position: absolute;
-    bottom: 0px;
+    bottom: -12px;
     text-align: center;
     font-weight: bold;
 }
@@ -189,6 +189,9 @@ footer.page-footer{
 /* Custom Media Queries for Responsiveness */
 
 @media screen and (max-width: 570px){
+    nav .brand-logo{
+        padding-left: 25px;
+    }
     #container h3{
         font-size: 20px;
         font-weight: bold;
