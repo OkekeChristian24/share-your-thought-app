@@ -21,7 +21,7 @@ connectDB()
 const app = express()
 
 // Body parser
-app.use(express.urlencoded({extende: false}))
+app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
 
