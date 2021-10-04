@@ -32,6 +32,11 @@ p{
     text-align: center;
 }
 
+#loginBody#register-form div.row{
+    width: 70%;
+    margin: 0 auto !important;
+}
+
 .fa-small{
     font-size: 16px !important;
 }
